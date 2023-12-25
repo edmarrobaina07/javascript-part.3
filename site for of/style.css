@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+body {
+    background: url(./assets/verde.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #ffff;
+}
+
+
+
+h1 {
+    margin: 30px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+span {
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    
+}
+
+li {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+input {
+    width: 30%;
+    height: 7vh;
+    padding-left: 10px;
+    margin: 7px 0;
+}
+
+button {
+    width: 30%;
+    height: 7vh;
+    margin: 27px 0;
+    background-color: #e90e0e;
+    color: #ffff;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+}
+button:hover {
+    background-color: #25fc30;
+    color: #000;
+}
+
+@media screen and (max-width: 490px) {
+    section, ul {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    span {
+        text-align: center;
+        padding: 20px;
+    }
+
+    p {
+        text-align: center;
+        padding: 10px;
+    }
+
+    input, button {
+        margin: 40px;
+        width: 70%;
+    }
+
+}
+
